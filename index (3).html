@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="سایت شخصی و نمونه کار مهدی صادقی - پورتفولیو حرفه‌ای" />
+  <meta name="theme-color" content="#0f0f13" />
+  <title>مهدی صادقی | نمونه کار شخصی</title>
+
+  <!-- فونت فارسی -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- آیکون‌ها -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- نوار ناوبری -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#home" class="logo">مهدی<span>صادقی</span></a>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">خانه</a></li>
+          <li><a href="#about" class="nav-link">درباره من</a></li>
+          <li><a href="#skills" class="nav-link">مهارت‌ها</a></li>
+          <li><a href="#projects" class="nav-link">نمونه کارها</a></li>
+          <li><a href="#contact" class="nav-link">تماس</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="منو">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- بخش اصلی (Hero) -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">سلام، من</p>
+        <h1 class="hero-name">مهدی صادقی</h1>
+        <h2 class="hero-title">
+          <span class="typed-text">توسعه‌دهنده وب و طراح رابط کاربری</span>
+        </h2>
+        <p class="hero-desc">
+          اینجا می‌تونی نمونه کارهای من رو ببینی. علاقه دارم تجربه‌های دیجیتال زیبا، سریع و کاربرپسند بسازم.
+          همیشه در حال یادگیری و خلق پروژه‌های جدید هستم.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">مشاهده نمونه کارها</a>
+          <a href="#contact" class="btn btn-outline">درخواست همکاری</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="گیت‌هاب"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="لینکدین"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/" target="_blank" rel="noopener" aria-label="توییتر / X"><i class="fab fa-x-twitter"></i></a>
+          <a href="mailto:your.email@example.com" aria-label="ایمیل"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <!-- برای گذاشتن عکس پروفایل: فایل profile.jpg را کنار index.html بگذار و خط پایین را فعال کن -->
+          <!-- <img src="profile.jpg" alt="مهدی صادقی" class="profile-img" /> -->
+          <div class="placeholder-avatar" id="avatar-placeholder">
+            <i class="fas fa-user"></i>
+            <span class="avatar-hint">عکس پروفایل</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#about" aria-label="برو پایین"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- درباره من -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title">درباره من</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            من مهدی صادقی هستم؛ فردی کنجکاو و عاشق تکنولوژی که از ساختن چیزهای مفید و زیبا لذت می‌برم.
+            تمرکز اصلی‌ام روی توسعه وب، تجربه کاربری و حل مسائل واقعی با کمک کد است.
+          </p>
+          <p>
+            همیشه سعی می‌کنم کد تمیز بنویسم، یادگیری را ادامه دهم و پروژه‌هایی بسازم که واقعاً به درد مردم بخورند.
+            اگر ایده‌ای داری یا می‌خوای با هم کار کنیم، خوشحال می‌شم حرف بزنیم!
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <span class="info-label">نام</span>
+              <span class="info-value">مهدی صادقی</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">ایمیل</span>
+              <span class="info-value">your.email@example.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">موقعیت</span>
+              <span class="info-value">ایران</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">وضعیت</span>
+              <span class="info-value available">آزاد برای همکاری</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- مهارت‌ها -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section-title">مهارت‌ها</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>HTML & CSS</h3>
+          <p>ساخت ساختار و طراحی ریسپانسیو و مدرن</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <h3>JavaScript</h3>
+          <p>تعامل‌پذیری و منطق سمت کلاینت</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-react"></i></div>
+          <h3>React</h3>
+          <p>ساخت رابط‌های کاربری پویا و مقیاس‌پذیر</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+          <h3>Node.js</h3>
+          <p>توسعه بک‌اند و API</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <h3>Git & GitHub</h3>
+          <p>مدیریت نسخه و همکاری تیمی</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-palette"></i></div>
+          <h3>UI / UX</h3>
+          <p>طراحی تجربه کاربری زیبا و کاربردی</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- نمونه کارها (Projects) -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2 class="section-title">نمونه کارها</h2>
+      <p class="section-subtitle">چند تا از پروژه‌هایی که روی آن‌ها کار کرده‌ام</p>
+
+      <div class="projects-grid">
+        <!-- پروژه ۱ -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-btn" target="_blank" rel="noopener">مشاهده زنده</a>
+              <a href="#" class="project-btn outline" target="_blank" rel="noopener">کد منبع</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>فروشگاه آنلاین</h3>
+            <p>یک فروشگاه کامل با سبد خرید، فیلتر محصولات و صفحه جزئیات. طراحی ریسپانسیو و تجربه کاربری روان.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>CSS</span>
+              <span>API</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- پروژه ۲ -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-btn" target="_blank" rel="noopener">مشاهده زنده</a>
+              <a href="#" class="project-btn outline" target="_blank" rel="noopener">کد منبع</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>داشبورد مدیریت</h3>
+            <p>داشبورد حرفه‌ای برای مدیریت کاربران، آمار و گزارش‌ها با نمودارهای تعاملی و تم تاریک.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Chart.js</span>
+              <span>HTML/CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- پروژه ۳ -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-btn" target="_blank" rel="noopener">مشاهده زنده</a>
+              <a href="#" class="project-btn outline" target="_blank" rel="noopener">کد منبع</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>اپلیکیشن مدیریت کارها</h3>
+            <p>ابزار ساده و سریع برای مدیریت کارهای روزانه با قابلیت اولویت‌بندی، فیلتر و ذخیره محلی.</p>
+            <div class="project-tags">
+              <span>Vanilla JS</span>
+              <span>LocalStorage</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- پروژه ۴ -->
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-btn" target="_blank" rel="noopener">مشاهده زنده</a>
+              <a href="#" class="project-btn outline" target="_blank" rel="noopener">کد منبع</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>لندینگ پیج محصول</h3>
+            <p>صفحه فرود مدرن و سریع با انیمیشن‌های نرم، فرم ثبت‌نام و طراحی کاملاً موبایل‌فرست.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- تماس -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title">تماس با من</h2>
+      <p class="contact-intro">اگر پروژه‌ای داری، سوالی هست یا فقط می‌خوای سلام کنی، پیام بده. معمولاً سریع جواب می‌دم.</p>
+      
+      <div class="contact-content">
+        <!-- فرم واقعی با Formspree (رایگان) -->
+        <!-- راهنما: برو به formspree.io ثبت‌نام کن، یک فرم بساز و آدرس زیر را با آدرس خودت عوض کن -->
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/meaadwlj" method="POST">
+          <div class="form-group">
+            <label for="name">نام شما</label>
+            <input type="text" id="name" name="name" placeholder="مثلاً علی رضایی" required />
+          </div>
+          <div class="form-group">
+            <label for="email">ایمیل شما</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">موضوع</label>
+            <input type="text" id="subject" name="subject" placeholder="موضوع پیام" />
+          </div>
+          <div class="form-group">
+            <label for="message">پیام شما</label>
+            <textarea id="message" name="message" rows="5" placeholder="پیامت رو اینجا بنویس..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submit-btn">
+            <span class="btn-text">ارسال پیام</span>
+            <span class="btn-loading" style="display:none;"><i class="fas fa-spinner fa-spin"></i> در حال ارسال...</span>
+          </button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>ایمیل</h4>
+              <a href="mailto:your.email@example.com">your.email@example.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <h4>گیت‌هاب</h4>
+              <a href="https://github.com/" target="_blank" rel="noopener">github.com/username</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <h4>لینکدین</h4>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/username</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>موقعیت</h4>
+              <span>ایران (کار از راه دور)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> مهدی صادقی. تمامی حقوق محفوظ است.</p>
+      <p class="footer-note">ساخته شده با دقت و کد تمیز</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
